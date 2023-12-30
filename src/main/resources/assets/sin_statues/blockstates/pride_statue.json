@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "sin_statues:block/pride_statue"
+    },
+    "facing=south": {
+      "model": "sin_statues:block/pride_statue",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "sin_statues:block/pride_statue",
+      "y": 270
+    },
+    "facing=east": {
+      "model": "sin_statues:block/pride_statue",
+      "y": 90
+    }
+  }
+}

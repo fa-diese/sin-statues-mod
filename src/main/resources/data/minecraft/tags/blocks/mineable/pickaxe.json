@@ -1,0 +1,12 @@
+{
+  "replace": false,
+  "values": [
+    "sin_statues:envy_statue",
+    "sin_statues:gluttony_statue",
+    "sin_statues:greed_statue",
+    "sin_statues:lust_statue",
+    "sin_statues:pride_statue",
+    "sin_statues:sloth_statue",
+    "sin_statues:wrath_statue"
+  ]
+}
