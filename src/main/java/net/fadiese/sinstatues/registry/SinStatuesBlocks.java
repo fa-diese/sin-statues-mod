@@ -29,7 +29,7 @@ public class SinStatuesBlocks {
     public static final RegistryObject<Block> SLOTH_STATUE = registerBlock("sloth_statue", () -> new SlothStatue(BlockBehaviour.Properties.of(Material.STONE).requiresCorrectToolForDrops().strength(2.5F).sound(SoundType.STONE).noOcclusion()), new Item.Properties().tab(SinStatuesItemGroup.SIN_STATUES_GROUP).rarity(Rarity.EPIC));
     public static final RegistryObject<Block> WRATH_STATUE = registerBlock("wrath_statue", () -> new WrathStatue(BlockBehaviour.Properties.of(Material.STONE).requiresCorrectToolForDrops().strength(2.5F).sound(SoundType.STONE).noOcclusion()), new Item.Properties().tab(SinStatuesItemGroup.SIN_STATUES_GROUP).rarity(Rarity.EPIC));
 
-    public static final RegistryObject<Block> ETHER_BLOCK = registerBlock("ether_block", () -> new EtherBlock(BlockBehaviour.Properties.of(Material.SAND).strength(1).sound(SoundType.SAND).lightLevel((blockstate) -> 15)), new Item.Properties().tab(SinStatuesItemGroup.SIN_STATUES_GROUP));
+    public static final RegistryObject<Block> ETHER_BLOCK = registerBlock("ether_block", () -> new EtherBlock(BlockBehaviour.Properties.of(Material.SAND).strength(1).sound(SoundType.SAND).lightLevel((blockstate) -> 8)), new Item.Properties().tab(SinStatuesItemGroup.SIN_STATUES_GROUP));
 
     private static <T extends Block> RegistryObject<T> registerBlock(String name, Supplier<T> block, Item.Properties properties) {
         RegistryObject<T> result = BLOCKS.register(name, block);
